@@ -1,17 +1,528 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Page Title</title>
-  </head>
-  <body>
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-    <p>This pragraph is added by Chanaka</p>
 
-    <video controls autoplay>
-      <source src="movie.mp4" type="video/mp4" />
-      <source src="movie.ogg" type="video/ogg" />
-      Your browser does not support the video tag.
-    </video>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="img/logo.ico">
+    <title>Dulaj Jayamanne</title>
+    <script src="js/spotlight.bundle.js"></script>
+    <meta
+      name="description"
+      content="Unika - Responsive One Page HTML5 Template"
+    />
+    <meta
+      name="keywords"
+      content="HTML5, Bootsrtrap, One Page, Responsive, Portfolio"
+    />
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts  -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,700,500"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Body font -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:300,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Navbar font -->
+
+    <!-- Libs and Plugins CSS -->
+    <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="inc/animations/css/animate.min.css" />
+    <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css" />
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css" />
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skin/cool-gray.css" />
+
+  </head>
+
+  <body data-spy="scroll" data-target="#main-navbar">
+    <div class="page-loader"></div>
+    <!-- Display loading image while page loads -->
+    <div class="body">
+      <!--========== BEGIN HEADER ==========-->
+      <header id="header" class="header-main">
+        <!-- Begin Navbar -->
+        <nav
+          id="main-navbar"
+          class="navbar navbar-default navbar-fixed-top"
+          role="navigation"
+        >
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="index.html">DJ</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse"
+              id="bs-example-navbar-collapse-1"
+            >
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="page-scroll" href="body">Home</a></li>
+                <li><a class="page-scroll" href="#about-section">About</a></li>
+                <li>
+                  <a class="page-scroll" href="#portfolio-section">Works</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#social-section">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
+        </nav>
+        <!-- End Navbar -->
+      </header>
+      <!-- ========= END HEADER =========-->
+
+      <!-- Begin text carousel intro section -->
+      <section
+        id="text-carousel-intro-section"
+        class="parallax"
+        data-stellar-background-ratio="0.5"
+        style="background-image: url(img/slider-bg.webp)"
+      >
+        <div class="container">
+          <div class="caption text-center text-white" data-stellar-ratio="0.7">
+            <div id="owl-intro-text" class="owl-carousel">
+              <div class="item">
+                <h1>Hi, I'M DULAJ</h1>
+                <p>From Sri Lanka</p>
+                <div class="extra-space-l"></div>
+                <a
+                  class="btn btn-blank page-scroll""
+                  href="#about-section"
+                  target="_blank"
+                  role="button"
+                  >View More!</a
+                >
+              </div>
+              <div class="item">
+                <h1>An Engineer</h1>
+                <p>By Profession</p>
+                <div class="extra-space-l"></div>
+                <a
+                  class="btn btn-blank page-scroll""
+                  href="#about-section"
+                  target="_blank"
+                  role="button"
+                  >View More!</a
+                >
+              </div>
+              <div class="item">
+                <h1>an enthusiast</h1>
+                <p>For Technology</p>
+                <div class="extra-space-l"></div>
+                <a
+                  class="btn btn-blank page-scroll""
+                  href="#about-section"
+                  target="_blank"
+                  role="button"
+                  >View More!</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- /.caption -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- End text carousel intro section -->
+
+      <!-- Begin about section -->
+      <section 
+        id="about-section" 
+        class="page bg-style1"
+        data-stellar-background-ratio="0.5"
+        style="background-image: url(img/bg-about.webp)"
+      >
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+          <div class="container">
+            <div
+              class="page-header text-center wow fadeInUp white-font"
+              data-wow-delay="0.3s"
+            >
+              <h2>About Me</h2>
+              <div class="devider"></div>
+              <!-- <p class="subtitle">little information</p> -->
+              <!-- <img src="img/photo-about.webp" alt="photo-about" /> -->
+            </div>
+          </div>
+        </div>
+        <!-- End page header-->
+
+        <!-- Begin rotate box-1 -->
+        <div class="rotate-box-1-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <a
+                  href="#portfolio-section"
+                  class="rotate-box-1 square-icon wow zoomIn page-scroll"
+                  data-wow-delay="0"
+                >
+                  <span class="rotate-box-icon"
+                    ><i class="fa fa-user"></i
+                  ></span>
+                  <div class="rotate-box-info">
+                    <!-- white-font -->
+                    <h4 >Who Am I?</h4>
+                    <p>
+                      I am Dulaj Jayamanne from Sri Lanka. I'm a graduate of Electrical and Electronic Engineering.
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                <a
+                  href="#portfolio-section"
+                  class="rotate-box-1 square-icon wow zoomIn page-scroll"
+                  data-wow-delay="0.2s"
+                >
+                  <span class="rotate-box-icon"
+                    ><i class="fa fa-briefcase"></i
+                  ></span>
+                  <div class="rotate-box-info">
+                    <h4>What I Do?</h4>
+                    <p>
+                      I'm working as an Electrical and Electronic Engineer @ Noratel International (Pvt) Ltd. I use technology to improve and automate the its production process.
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                <a
+                  href="#portfolio-section"
+                  class="rotate-box-1 square-icon wow zoomIn page-scroll"
+                  data-wow-delay="0.4s"
+                >
+                  <span class="rotate-box-icon"
+                    ><i class="fa fa-heart"></i
+                  ></span>
+                  <div class="rotate-box-info">
+                    <h4>Why I Do It?</h4>
+                    <p>
+                      I am not only a person who has the desire of gaining knowledge and likes innovative thinking but also someone who has a passion of gaining new experiences daily. I try to grab the best out of everything and a joyful person who believes self-satisfaction as the mean of success.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- End rotate box-1 -->
+
+        <!-- <div class="extra-space-l"></div> -->
+
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+          <div class="container">
+            <div
+              class="page-header-less text-center wow fadeInUp white-font"
+              data-wow-delay="0.3s"
+            >
+              <h4>My Skills</h4>
+            </div>
+          </div>
+        </div>
+        <!-- End page header-->
+
+        <!-- Begin Our Skills -->
+        <div class="our-skills">
+          <div class="container">
+            <div class="row white-font">
+              <div class="col-sm-6">
+                <div class="skill-bar wow slideInLeft" data-wow-delay="0.2s">
+                  <div class="progress-lebel">
+                    <h6>Electrical & Electronic Engineering</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="skill-bar wow slideInRight" data-wow-delay="0.2s">
+                  <div class="progress-lebel">
+                    <h6>Programming - Python</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 50%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="skill-bar wow slideInLeft" data-wow-delay="0.4s">
+                  <div class="progress-lebel">
+                    <h6>Full-stack Web Development</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="40"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 40%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="skill-bar wow slideInRight" data-wow-delay="0.4s">
+                  <div class="progress-lebel">
+                    <h6>Graphic Design - Photoshop</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="30"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 30%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- End Our Skill -->
+      </section>
+      <!-- End about section -->
+
+      <!-- Begin Portfolio -->
+      <section id="portfolio-section" class="page bg-style1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="portfolio">
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                  <div class="container">
+                    <div
+                      class="page-header-less text-center wow fadeInDown"
+                      data-wow-delay="0.4s"
+                    >
+                      <h2>My Works</h2>
+                      <div class="devider"></div>
+                      <p class="subtitle">What I am proud of</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End page header-->
+                <div class="portfoloi_content_area">
+                  <div class="spotlight-group" data-fit="cover" data-autohide="all">
+                    <a
+                      class="spotlight"
+                      href="img/portfolio/p1.jpg"
+                      data-button="Click Me!"
+                      data-button-href="Lorem"
+                      data-description="Loremfdhl"
+                    >
+                      <img
+                        class="col-xs-12 col-sm-4"
+                        src="img/portfolio/p1.jpg"
+                        alt="Lorem ipsum"
+                      />
+                    </a>
+                    <a
+                      class="spotlight"
+                      href="img/portfolio/p1.jpg"
+                      data-description="ksdfjkl"
+                    >
+                      <img
+                        class="col-xs-12 col-sm-4"
+                        src="img/portfolio/p1.jpg"
+                        alt="djnlkfg;df"
+                      />
+                    </a>
+                    <a
+                      class="spotlight"
+                      href="img/portfolio/p1.jpg"
+                      data-description="fljkdsfnklds"
+                    >
+                      <img
+                        class="col-xs-12 col-sm-4"
+                        src="img/portfolio/p1.jpg"
+                        alt="jdklsjfg,"
+                      />
+                    </a>
+                  </div>
+                  <div class="portfolio_menu" id="filters">
+                    <ul>
+                      <!-- <li class="active_prot_menu">
+                        <a href="#porfolio_menu" data-filter="*">all</a>
+                      </li> -->
+                      <li class="active_prot_menu">
+                        <a href="#porfolio_menu" data-filter=".engineering"
+                          >Engineering</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#porfolio_menu" data-filter=".websites"
+                          >websites</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#porfolio_menu" data-filter=".appsDevelopment"
+                          >apps development</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#porfolio_menu" data-filter=".GraphicDesign"
+                          >graphic design</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="portfolio_content">
+                    <div class="row" id="portfolio">
+                      <!-- content -->
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End portfolio -->      
+      
+      <!-- Begin social section -->
+      <section id="social-section">
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+          <div class="container">
+            <div
+              class="page-header text-center wow fadeInDown"
+              data-wow-delay="0.4s"
+            >
+              <h2>Contact me</h2>
+              <div class="devider"></div>
+              <p class="subtitle">Contact me on social networks</p>
+            </div>
+          </div>
+        </div>
+        <!-- End page header-->
+
+        <div class="container">
+          <ul class="social-list">
+            <li>
+              <a
+                href="#"
+                class="rotate-box-1 square-icon text-center wow zoomIn"
+                data-wow-delay="0.3s"
+                ><span class="rotate-box-icon"
+                  ><i class="fa fa-facebook"></i></span
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="rotate-box-1 square-icon text-center wow zoomIn"
+                data-wow-delay="0.4s"
+                ><span class="rotate-box-icon"
+                  ><i class="fa fa-twitter"></i></span
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="rotate-box-1 square-icon text-center wow zoomIn"
+                data-wow-delay="0.5s"
+                ><span class="rotate-box-icon"
+                  ><i class="fa fa-google-plus"></i></span
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="rotate-box-1 square-icon text-center wow zoomIn"
+                data-wow-delay="0.6s"
+                ><span class="rotate-box-icon"
+                  ><i class="fa fa-whatsapp"></i></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End social section -->
+
+      <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a>
+      <!-- Scroll to top button -->
+    </div>
+    <!-- body ends -->
+
+    <!-- Plugins JS -->
+    <script src="inc/jquery/jquery-1.11.1.min.js"></script>
+    <script src="inc/bootstrap/js/bootstrap.min.js"></script>
+    <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="inc/stellar/js/jquery.stellar.min.js"></script>
+    <script src="inc/animations/js/wow.min.js"></script>
+    <script src="inc/waypoints.min.js"></script>
+    <script src="inc/isotope.pkgd.min.js"></script>
+    <script src="inc/classie.js"></script>
+    <script src="inc/jquery.easing.min.js"></script>
+    <script src="inc/jquery.counterup.min.js"></script>
+    <script src="inc/smoothscroll.js"></script>
+
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
   </body>
 </html>
