@@ -1173,27 +1173,27 @@ p.subtitle {
 }
 
 /* From image viewer */
-.spotlight img,
-.image {
-  width: 29vw;
-  height: auto;
-  max-width: 300px;
-  margin: 1vmin 1vmin;
-  content-visibility: auto;
-}
-.image {
-  display: inline-block;
-  height: 20vw;
-  max-height: 200px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.spotlight img {
+/* .spotlight img, */
+/* .image { */
+/* width: 100%; */
+/* height: auto; */
+/* max-width: 100%; */
+/* margin: 1vmin 1vmin; */
+/* content-visibility: auto; */
+/* } */
+/* .image { */
+/* display: inline-block; */
+/* height: 20vw; */
+/* max-height: auto; */
+/* background-position: center center; */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* } */
+/* .spotlight img {
   height: 20vw;
   max-height: 200px;
   object-fit: cover;
-}
+} */
 .spotlight {
   cursor: pointer;
   display: inline-block;
